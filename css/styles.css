@@ -1,0 +1,147 @@
+.webo {
+    background-image: url(../img/huevos\ fondo.webp);
+}
+
+.webologo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.titulo1 {
+    color: brown; 
+    background-color: antiquewhite;
+    font-size: 1,5rem;
+    border-style: solid;
+    text-align: center;
+}
+
+
+.titulo1 li {
+    display: inline;
+}
+img {
+    max-width: 100%;
+}
+nav {
+    font-size: 2rem;
+
+}
+
+nav {
+    margin-top: 2rem;
+}
+
+.menu__nav {
+    text-align: center;
+
+}
+.menu__nav li {
+    display: inline;
+    margin-right: 1rem;
+    
+}
+
+.menu__nav li a {
+color: brown;
+transition: ease .3s;
+}
+
+.menu__nav li a:hover {
+    background-color: brown;
+    color: burlywood;
+    padding: 10px;
+    border-radius: 10%;
+
+}
+.menu {
+    color: brown;
+    background-color: antiquewhite;
+    border-style: solid;
+
+}
+
+.tabla {
+    border: 10px; border-style: double;
+
+    background-color: lightcoral;
+}
+
+.tabla {
+    width:150px;
+margin:10px 50px;
+padding:20px;
+font-size:italic;
+}
+
+.tyc {
+    background-color: burlywood ;
+    margin-top: 5rem;
+}
+
+.formulario {
+    background-color: burlywood
+    ;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.ingresa-datos {
+    background-color: brown;
+}
+
+.ingresa-datos1 {
+    background-color: antiquewhite;
+    border-style: solid;
+}
+.card {
+    background-color: olivedrab;
+    padding: 3rem
+    ;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    width: 200px;
+    border-style: solid;
+    transition: ease .3s;
+}
+
+.card__titulo {
+    margin: 1rem;
+}
+
+.card__imagen {
+    width: 200px;
+}
+
+#Huevos {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    
+}
+
+.huevoinicio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#paginaprincipal {
+    background-color: burlywood;
+}
+
+.muchoshuevos {
+    max-width: 100%;
+    width: 500px;
+    transform: translate(70px);
+
+    /*transform: rotate(5deg); */
+}
+
+.gradiente-lineal {
+    background-image: linear-gradient(to left, brown, lightcoral);
+}
